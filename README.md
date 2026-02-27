@@ -8,7 +8,7 @@ A unique, aesthetic scientific calculator web application designed with a "hand-
 
 Hand-Drawn UI:Utilizes the "Architects Daughter" font and custom CSS shapes to create a sketchy, paper-card aesthetic.
 
-Scientific Functions: Supports advanced operations including Sine (sin), Cosine (cos), Tangent (tan), Logarithms (log), and Square Roots (√).Constants & Powers: Built-in support for $\pi$ (Pi), squaring numbers ($x^2$), and custom exponents ($x^y$).
+Scientific Functions: Supports advanced operations including Sine (sin), Cosine (cos), Tangent (tan), Logarithms (log), and Square Roots (√).Constants & Powers: Built-in support for  (Pi), squaring numbers , and custom exponents .
 
 Clean Logic: Powered by a concise JavaScript engine for real-time calculations and error handling.
 
