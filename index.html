@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="calculatrice.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <div class="paper-card">
+        <div class="tape"></div>
+        <div class="display">
+            <input type="text" id="screen" readonly placeholder="0">
+        </div>
+        <div class="buttons">
+            <button class="bttn scientific" onclick="appendValue('Math.sin')">Sin</button>
+            <button class="bttn scientific" onclick="appendValue('Math.cos(')">Cos</button>
+            <button class="bttn scientific" onclick="appendValue('Math.tan(')">Tan</button>
+            <button class="bttn scientific" onclick="appendValue('Math.PI')">Pi</button>
+
+            <button class="bttn scientific" onclick="appendValue('Math.log10(')">Log</button>
+            <button class="bttn scientific" onclick="appendValue('**2')">x²</button>
+            <button class="bttn scientific" onclick="appendValue('Math.sqrt(')">√</button>
+            <button class="bttn scientific" onclick="appendValue('**')">xʸ</button>
+
+            <button class="bttn clear" onclick="clearScreen()">C</button>
+            <button class="bttn delet" onclick="deletLast()">DEL</button>
+            <button class="bttn" onclick="appendValue('(')">(</button>
+            <button class="bttn" onclick="appendValue(')')">)</button>
+
+            <button class="bttn" onclick="appendValue('7')">7</button>
+            <button class="bttn" onclick="appendValue('8')">8</button>
+            <button class="bttn" onclick="appendValue('9')">9</button>
+            <button class="bttn operations" onclick="appendValue('/')">÷</button>
+
+            <button class="bttn" onclick="appendValue('4')">4</button>
+            <button class="bttn" onclick="appendValue('5')">5</button>
+            <button class="bttn" onclick="appendValue('6')">6</button>
+            <button class="bttn operations" onclick="appendValue('*')">X</button>
+
+            <button class="bttn" onclick="appendValue('1')">1</button>
+            <button class="bttn" onclick="appendValue('2')">2</button>
+            <button class="bttn" onclick="appendValue('3')">3</button>
+            <button class="bttn operations" onclick="appendValue('-')">-</button>
+
+            <button class="bttn" onclick="appendValue('0')">0</button>
+            <button class="bttn" onclick="appendValue('.')">.</button>
+            <button class="bttn equal" onclick="calculate()">=</button>
+            <button class="bttn operations" onclick="appendValue('+')">+</button>
+        </div>
+    </div>
+  </div>
+    <script src="calculatrice.js"></script>
+</body>
+</html>
